@@ -66,7 +66,7 @@ r_screw = 1.8;
 z_screw = 20;
 
 //For support post
-r_post = r_front/6;
+//r_post = r_front/6;
 z_post = 20;
 
 

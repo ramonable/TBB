@@ -240,6 +240,4 @@ module v3_var4_lid_sv1()
 
 
 
-
-/****************** BUILDING THE MODEL **************/
-//v3_var4_lid_sv1();
+v3_var4_lid_sv1();
