@@ -138,11 +138,12 @@ difference()
     side_hole(x_side, y_side, z_side);
     back_hole(x_back, y_back, z_back);
     
-    #translate([0, -r_out/4, (1.3)*r_out])v3_var4_lid_sv1();
-    #translate([((x_out/2)-(x_in/2)),0, z_out - r_out])cube([x_in, 20, r_out]);
+    translate([0, -r_out/4, (1.3)*r_out])v3_var4_lid_sv1();
+   
+    translate([((x_out/2)-(x_in/2)),0, z_out - r_out])cube([x_in, 20, r_out]);
 }
 
-#translate([x_in - x_dist_mount+(x_out-x_in)/4,y_in - y_dist_mount+((y_out-y_in)/4)-27,r_out/2])
+translate([x_in - x_dist_mount+(x_out-x_in)/4,y_in - y_dist_mount+((y_out-y_in)/4)-27,r_out/2])
 {
     pi_post(pi_mount_rad, pi_mount_h, hole_rad, hole_h);
 }
